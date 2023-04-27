@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="content-language" content="en-EN" />
+        
+        <title>TRY ON</title>     
+        <script src="js/libs/faceFilter.js"></script>  
+        <script src="js/specs.js"></script>        
+        <script src="js/libs/three.min.js"></script>   
+        <script src="js/libs/OBJLoader.js"></script>     
+        <script src="js/libs/helper.js"></script>     
+        <script src="js/libs/resize.js"></script>
+        <script src="js/libs/glass.js"></script>
+        <script src="js/demo.js"></script>
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+    </head>
+    
+    <body onload="main()" style='color: white'>
+     <div class="header">
+         <div id="logo">
+             <!-- <img src="imgs/logo-skein.png"></img> -->
+         </div>
+    </div>
+    <div class="glassContainer">
+        <div id="glassOne">
+            <img id="one" onclick="changeSpec(0);" src="icons/One.jpg"></img>
+        </div>
+        <div id="glassTwo">
+                <img id="one" onclick="changeSpec(1);" src="icons/Two.jpg"></img>
+        </div>
+        <div id="glassThree">
+                <img id="Three" onclick="changeSpec(2);" src="icons/Three.jpg"></img>
+        </div>
+        <div id="glassFour">
+                <img id="Four" onclick="changeSpec(3);" src="icons/Four.jpg"></img>
+        </div>
+        <div id="glassFive">
+                <img id="Five" onclick="changeSpec(4);" src="icons/Five.jpg"></img>
+        </div>
+        <div id="glassSix">
+                <img id="six" onclick="changeSpec(5);" src="icons/Six.jpg"></img>
+        </div>
+    </div>
+  
+        <canvas width="500" height="500" id='jeeFaceFilterCanvas'></canvas>
+    </body>
+</html>
+ 
+ 
